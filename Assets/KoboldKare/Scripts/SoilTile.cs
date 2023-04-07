@@ -92,7 +92,7 @@ public class SoilTile : MonoBehaviourPun, IPunObservable, ISavable {
         //spawnData.AddShort(plantID);
         //spawnData.AddKoboldGenes(myGenes);
         GameObject obj = PhotonNetwork.InstantiateRoomObject(plantPrefab.photonName, GetPlantPosition(),
-            Quaternion.LookRotation(Vector3.forward, Vector3.up), 0,
+            Quaternion.LookRotation(transform.forward, Vector3.up), 0,
             new object[] { spawnData });
         photonView.RPC(nameof(SoilTile.SetPlantedRPC), RpcTarget.All,
             obj.GetComponent<Plant>().photonView.ViewID);

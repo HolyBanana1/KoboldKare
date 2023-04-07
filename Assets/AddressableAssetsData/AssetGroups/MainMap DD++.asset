@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: MainMap DD++
+  m_EditorClassIdentifier: 
+  m_GroupName: MainMap DD++
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f6ea628c2d5cb5e42bd12af1a3dfd1fc
+  m_SerializeEntries:
+  - m_GUID: e0f41614648e3d049bbd5dde113fc392
+    m_Address: MainMap DD++
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7d9e4bd6ddb75f47912586b65ea1a2e
+    m_Address: Assets/Main map mod/MainMap DD++.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayableMap
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: bae434cba05d81d4b9cb5c181a2fbf2c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3f29ef6f5a6cfa94f85c3f4e0471b0a9, type: 2}
+    - {fileID: 11400000, guid: a00311ca7d24ae84bbfccee2a7acb0e9, type: 2}

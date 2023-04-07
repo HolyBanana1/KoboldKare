@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Test1
+  m_EditorClassIdentifier: 
+  m_GroupName: Test1
+  m_Data:
+    m_SerializedData: []
+  m_GUID: bc5aa2a4b2718984ca8d3c8e8c5f3c66
+  m_SerializeEntries:
+  - m_GUID: 7df6b85479b31d44690e47303e50ee28
+    m_Address: test
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56caf68086bc94a43916b9e01b642048
+    m_Address: Assets/The Garden/TestPM.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayableMap
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: bae434cba05d81d4b9cb5c181a2fbf2c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4912ea4772deee940997ca2675d4cffb, type: 2}
+    - {fileID: 11400000, guid: c5bdbc312520a4f44a5cbf5ec090420d, type: 2}
